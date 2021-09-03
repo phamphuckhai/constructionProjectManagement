@@ -7,6 +7,8 @@ interface OwnProps {
 }
 
 export default function RepositoryItem({ repository }: OwnProps) {
+  console.log("hello there");
+  
   return <li>{repository.name}</li>;
 }
 
